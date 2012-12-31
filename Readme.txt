@@ -1,3 +1,4 @@
+Make sure Kernel is compiled and built before building DSPLINK
 
 1.Provide Paths(DSPLINK, BIOS, KERNEL, XDC, CGT) in Products.mak file
 
