@@ -65,7 +65,7 @@ dsplink: .dsplink-xdc
 	@$(ECHO) "# Making $@ ..."
 	cd $(DSPLINK); perl config/bin/dsplinkcfg.pl \
             --platform=DA8XX --nodsp=1 --dspcfg_0=DA8XXGEMSHMEM \
-            --dspos_0=DSPBIOS6XX --gppos=ARM --comps=ponslm --trace=0 \
+            --dspos_0=DSPBIOS6XX --gppos=ARM --comps=ponslmrc --trace=0 \
             --DspTaskMode=1
 	    
 
